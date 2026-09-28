@@ -1,0 +1,28 @@
+Task / Benchmark,Model / Algorithm,Evaluated Metric,Fold 1,Fold 2,Fold 3,Fold 4,Fold 5,Mean ± SD
+Experimental Band Gap (matbench_expt_gap),ExtraTrees,MAE (eV) [Primary],0.3888,0.3831,0.4324,0.3852,0.3866,0.3952 ± 0.0187
+Experimental Band Gap (matbench_expt_gap),ExtraTrees,RMSE (eV) [Complementary],0.7325,0.7310,0.8807,0.7636,0.7500,0.7716 ± 0.0559
+Experimental Band Gap (matbench_expt_gap),ExtraTrees,R² [Complementary],0.7004,0.7662,0.6668,0.7183,0.7112,0.7126 ± 0.0321
+Experimental Band Gap (matbench_expt_gap),RandomForest,MAE (eV) [Primary],0.4315,0.4289,0.4776,0.4330,0.4374,0.4417 ± 0.0181
+Experimental Band Gap (matbench_expt_gap),RandomForest,RMSE (eV) [Complementary],0.7910,0.7728,0.9207,0.8026,0.7872,0.8149 ± 0.0538
+Experimental Band Gap (matbench_expt_gap),RandomForest,R² [Complementary],0.6506,0.7387,0.6359,0.6888,0.6819,0.6792 ± 0.0356
+Experimental Band Gap (matbench_expt_gap),HistGradientBoosting,MAE (eV) [Primary],0.4110,0.4241,0.4787,0.4285,0.4263,0.4337 ± 0.0233
+Experimental Band Gap (matbench_expt_gap),HistGradientBoosting,RMSE (eV) [Complementary],0.7553,0.7524,0.9133,0.7981,0.7783,0.7995 ± 0.0593
+Experimental Band Gap (matbench_expt_gap),HistGradientBoosting,R² [Complementary],0.6815,0.7523,0.6417,0.6923,0.6890,0.6913 ± 0.0355
+Metallicity (matbench_expt_is_metal),HistGradientBoosting,ROC-AUC [Primary],0.9775,0.9730,0.9786,0.9781,0.9735,0.9761 ± 0.0024
+Metallicity (matbench_expt_is_metal),HistGradientBoosting,F1-score [Complementary],0.9197,0.9207,0.9234,0.9256,0.9207,0.9220 ± 0.0022
+Metallicity (matbench_expt_is_metal),HistGradientBoosting,Accuracy [Complementary],0.9218,0.9217,0.9248,0.9258,0.9207,0.9230 ± 0.0020
+Metallicity (matbench_expt_is_metal),RandomForest,ROC-AUC [Primary],0.9770,0.9720,0.9724,0.9770,0.9726,0.9742 ± 0.0023
+Metallicity (matbench_expt_is_metal),RandomForest,F1-score [Complementary],0.9234,0.9188,0.9102,0.9254,0.9115,0.9179 ± 0.0061
+Metallicity (matbench_expt_is_metal),RandomForest,Accuracy [Complementary],0.9249,0.9197,0.9116,0.9258,0.9116,0.9187 ± 0.0062
+Metallicity (matbench_expt_is_metal),ExtraTrees,ROC-AUC [Primary],0.9767,0.9747,0.9719,0.9758,0.9712,0.9741 ± 0.0023
+Metallicity (matbench_expt_is_metal),ExtraTrees,F1-score [Complementary],0.9180,0.9178,0.9128,0.9184,0.9082,0.9150 ± 0.0040
+Metallicity (matbench_expt_is_metal),ExtraTrees,Accuracy [Complementary],0.9198,0.9197,0.9136,0.9187,0.9085,0.9161 ± 0.0044
+Glass-Forming (matbench_glass),RandomForest,ROC-AUC [Primary],0.9655,0.9460,0.9365,0.9491,0.9530,0.9500 ± 0.0095
+Glass-Forming (matbench_glass),RandomForest,F1-score [Complementary],0.9397,0.9197,0.9196,0.9264,0.9299,0.9271 ± 0.0074
+Glass-Forming (matbench_glass),RandomForest,Accuracy [Complementary],0.9120,0.8838,0.8829,0.8935,0.8988,0.8942 ± 0.0107
+Glass-Forming (matbench_glass),HistGradientBoosting,ROC-AUC [Primary],0.9556,0.9426,0.9387,0.9399,0.9430,0.9439 ± 0.0060
+Glass-Forming (matbench_glass),HistGradientBoosting,F1-score [Complementary],0.9251,0.9187,0.9140,0.9192,0.9277,0.9210 ± 0.0049
+Glass-Forming (matbench_glass),HistGradientBoosting,Accuracy [Complementary],0.8908,0.8820,0.8750,0.8829,0.8952,0.8852 ± 0.0071
+Glass-Forming (matbench_glass),ExtraTrees,ROC-AUC [Primary],0.9650,0.9446,0.9366,0.9493,0.9519,0.9495 ± 0.0100
+Glass-Forming (matbench_glass),ExtraTrees,F1-score [Complementary],0.9374,0.9155,0.9145,0.9234,0.9272,0.9242 ± 0.0077
+Glass-Forming (matbench_glass),ExtraTrees,Accuracy [Complementary],0.9093,0.8768,0.8768,0.8900,0.8952,0.8916 ± 0.0110

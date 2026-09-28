@@ -1,0 +1,9 @@
+Evaluation Level,Experimental Benchmark (matbench_expt_gap),Materials Project Candidate Pool,Overlap Metric,Quantified Value,Screening Impact
+1. Raw String Overlap,"4,604 formulas","30,000 candidates",Exact formula string match,0 entries (0.000%),No raw formula identity
+2. Reduced Composition Overlap,"4,604 canonical compositions","30,000 candidates",Canonical reduced formula (pymatgen),"16 unique compositions (18 entries, 0.060%)","Candidate pool reduced to 29,982 entries"
+3. Shared Chemical Systems,"3,705 elemental systems","17,262 elemental systems","Constituent element combinations (e.g., Rb-W-Se)","1,448 shared systems (5,877 entries, 19.59%)",80.41% candidates in novel chemical systems
+4. Element-Fraction Similarity,"4,604 composition vectors","3,263 target candidates",Cosine similarity of atomic fractions,"Mean = 0.9489, Median = 0.9664",87.47% highly similar (sim >= 0.90)
+"5. Target Window [1.10, 1.80] eV","4,604 canonical compositions","3,263 target candidates",Target candidates in training set,5 candidate entries (0.153%),"Candidates changed from 3,263 to 3,258"
+6. Priority Tier Breakdown,"4,604 canonical compositions","High: 486, Med: 890, VerReq: 1,882 (after dedup)",De-duplicated priority classification,"High: 486, Med: 890, VerReq: 1,882",High-Priority tier 100% unaffected
+7. Representative Candidates,"4,604 canonical compositions",11 candidates (Table V),External validation candidates in train,0 entries (0.000%),100% genuinely unseen candidates
+8. Model Test MAE Impact,Baseline: 0.4430 eV,De-duplicated: 0.4430 eV,Out-of-fold generalization MAE,ΔMAE = 0.0000 eV,Identical predictive accuracy

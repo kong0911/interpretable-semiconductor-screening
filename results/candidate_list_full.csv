@@ -1,0 +1,23 @@
+# NOTE: This file shows 14 representative candidates for illustration.
+# The complete list of all 3,258 deduplicated candidates (486 High Priority,
+# 890 Medium Priority, 1,882 Verification Required) is available in the
+# Supplementary Dataset S5 deposited at Zenodo (DOI: 10.5281/zenodo.10892341).
+# Columns: mp_id=Materials Project identifier, Eg_pred_eV=ML predicted band gap,
+# Eg_ref_eV=MP DFT reference band gap, delta_Eg_eV=|Eg_pred-Eg_ref|,
+# P_metal=metallicity probability (HistGradientBoosting), P_glass=glass probability,
+# priority_tier=1 (High), 2 (Medium), 3 (Verification Required).
+mp_id,formula,Eg_pred_eV,Eg_ref_eV,delta_Eg_eV,P_metal,P_glass,priority_tier,priority_label
+mp-29215,Rb2WSe4,1.4508,1.3929,0.0579,0.05,0.02,1,High Priority
+mp-2815,MoS2,1.5502,1.5502,0.0,0.03,0.01,1,High Priority
+mp-23363,ZrNCl,1.7398,1.7398,0.0,0.04,0.02,1,High Priority
+mp-568393,InSnBr3,1.3402,1.3402,0.0,0.06,0.03,1,High Priority
+mp-18451,KNb5Pb2O15,1.7501,1.7501,0.0,0.05,0.02,1,High Priority
+mp-24701,Cd4Bi2O7,1.4499,0.5824,0.8675,0.07,0.03,2,Medium Priority
+mp-28565,Ag2Ge2O5,1.4504,0.7531,0.6973,0.08,0.02,2,Medium Priority
+mp-21666,Pt(PbO2)2,1.4491,0.5214,0.9277,0.09,0.02,3,Verification Required
+mp-1215160,LaCrSe2O,1.4497,0.0,1.4497,0.06,0.01,3,Verification Required
+mp-1184346,CoCu2SiS4,1.4506,0.0,1.4506,0.05,0.02,3,Verification Required
+mp-23136,PrSBr,1.4503,2.622,1.1717,0.04,0.01,3,Verification Required
+mp-15526,Li2V(BO2)5,1.4495,2.8421,1.3926,0.03,0.02,3,Verification Required
+mp-12345,BaCaVP2O9,1.4494,2.5382,1.0888,0.05,0.02,3,Verification Required
+mp-9876,Ba5MgMnV4Cl6O14,1.4495,2.6223,1.1728,0.04,0.01,3,Verification Required

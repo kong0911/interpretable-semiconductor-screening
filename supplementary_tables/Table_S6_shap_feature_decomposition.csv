@@ -1,0 +1,26 @@
+Rank,Feature Name,Exact Definition,Feature Family,Mean |SHAP| (eV),Share (%),5-Fold Rank
+1,compound_possible,Binary indicator whether an electroneutral ionic compound can be formed from constituent elements using common oxidation states,Chemical Feasibility,0.4290,18.11%,1.0 ± 0.0
+2,MagpieData mean NpValence,Mean number of valence p electrons across constituent atoms,Valence Electron Structure,0.1165,4.92%,2.2 ± 0.4
+3,MagpieData mean Column,Mean periodic table group/column number of constituent elements,Periodic Table Position,0.0893,3.77%,3.2 ± 0.4
+4,frac p valence electrons,Fraction of total valence electrons occupying p orbitals,Valence Electron Structure,0.0879,3.71%,3.8 ± 0.7
+5,MagpieData avg_dev Electronegativity,Average absolute deviation of Pauling electronegativity among constituent elements,Electronegativity,0.0797,3.36%,5.2 ± 0.4
+6,0-norm (stoichiometry),Number of distinct chemical elements in the compound formula,Stoichiometry,0.0730,3.08%,6.0 ± 0.6
+7,MagpieData maximum MendeleevNumber,Maximum Mendeleev number among constituent elements,Periodic Table Position,0.0575,2.43%,7.4 ± 0.5
+8,MagpieData mean CovalentRadius,Mean covalent atomic radius of constituent elements (pm),Atomic Size / Mass,0.0496,2.09%,8.2 ± 0.7
+9,MagpieData mode Electronegativity,Statistical mode of Pauling electronegativity across constituents,Electronegativity,0.0491,2.07%,8.8 ± 0.7
+10,MagpieData mean MeltingT,Mean elemental melting temperature of constituent atoms (K),Thermal Properties,0.0471,1.99%,10.0 ± 0.6
+11,MagpieData range NdValence,Difference between maximum and minimum valence d electrons,Valence Electron Structure,0.0460,1.94%,11.2 ± 0.7
+12,MagpieData mean Row,Mean periodic table period/row number of constituent elements,Periodic Table Position,0.0447,1.89%,12.0 ± 0.6
+13,MagpieData mode GSbandgap,Mode of elemental ground-state band gaps at 0 K cataloged in Magpie lookup table,Elemental Physical Property,0.0447,1.89%,12.4 ± 0.5
+14,MagpieData avg_dev NpValence,Average deviation of valence p electron counts,Valence Electron Structure,0.0345,1.46%,14.0 ± 0.6
+15,MagpieData mean GSmagmom,Mean elemental ground-state magnetic moment in Bohr magnetons,Elemental Physical Property,0.0343,1.45%,14.8 ± 0.7
+16,MagpieData mean NpUnfilled,Mean number of unfilled p orbital states across constituent atoms,Orbital Filling,0.0273,1.15%,16.2 ± 0.7
+17,Boron atomic fraction (B),Stoichiometric fraction of Boron in compound formula,Elemental Fraction,0.0237,1.00%,17.0 ± 0.6
+18,Copper atomic fraction (Cu),Stoichiometric fraction of Copper in compound formula,Elemental Fraction,0.0183,0.77%,18.2 ± 0.7
+19,Sulfur atomic fraction (S),Stoichiometric fraction of Sulfur in compound formula,Elemental Fraction,0.0159,0.67%,19.0 ± 0.6
+20,MagpieData avg_dev NpUnfilled,Average deviation of unfilled p orbital states,Orbital Filling,0.0142,0.60%,20.2 ± 0.7
+21,Oxygen atomic fraction (O),Stoichiometric fraction of Oxygen in compound formula,Elemental Fraction,0.0135,0.57%,21.0 ± 0.6
+22,MagpieData minimum Electronegativity,Minimum Pauling electronegativity among constituent elements,Electronegativity,0.0128,0.54%,22.2 ± 0.7
+23,MagpieData mean GSvolume_pa,Mean elemental ground-state atomic volume (Å³/atom),Atomic Size / Mass,0.0121,0.51%,23.0 ± 0.6
+24,Selenium atomic fraction (Se),Stoichiometric fraction of Selenium in compound formula,Elemental Fraction,0.0115,0.49%,24.2 ± 0.7
+25,MagpieData range MeltingT,Difference between maximum and minimum elemental melting temperatures (K),Thermal Properties,0.0110,0.46%,25.0 ± 0.6

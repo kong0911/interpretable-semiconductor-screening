@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Interpretable ML for Candidate Semiconductor Prioritization"
+type: software
+authors:
+  - family-names: Zhang
+    given-names: Rui
+  - family-names: Jiang
+    given-names: Ran
+repository-code: https://github.com/materials-informatics/interpretable-semiconductor-prioritization
+doi: 10.5281/zenodo.10892341
+date-released: 2024-01-01
+license: MIT

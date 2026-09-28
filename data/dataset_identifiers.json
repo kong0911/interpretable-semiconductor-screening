@@ -1,0 +1,37 @@
+{
+  "matbench_version": "v0.1",
+  "matbench_tasks": {
+    "matbench_expt_gap": {
+      "n_samples": 4604,
+      "target": "experimental band gap (eV)",
+      "task_type": "regression",
+      "original_source": "Zhuo et al., J. Phys. Chem. Lett. 9 (2018) 1668",
+      "matbench_doi": "10.1038/s41524-020-00440-1"
+    },
+    "matbench_expt_is_metal": {
+      "n_samples": 4921,
+      "target": "metallicity (binary)",
+      "task_type": "classification",
+      "original_source": "Zhuo et al., J. Phys. Chem. Lett. 9 (2018) 1668",
+      "matbench_doi": "10.1038/s41524-020-00440-1"
+    },
+    "matbench_glass": {
+      "n_samples": 5680,
+      "target": "glass-forming ability (binary)",
+      "task_type": "classification",
+      "original_source": "Ward et al., npj Comput. Mater. 2 (2016) 16028",
+      "matbench_doi": "10.1038/s41524-020-00440-1"
+    },
+    "matbench_mp_gap": {
+      "n_samples": 106113,
+      "target": "DFT band gap (eV)",
+      "task_type": "candidate_pool",
+      "note": "30,000 entry subset used as candidate screening pool (random_state=18012019)",
+      "materials_project_doi": "10.17188/1189518"
+    }
+  },
+  "descriptor_library": "matminer >= 0.8.0 (Magpie compositional features)",
+  "n_descriptors_main_comparison": 142,
+  "n_descriptors_extended_shap": 267,
+  "random_seed": 18012019
+}

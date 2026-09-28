@@ -1,0 +1,17 @@
+canonical_reduced_formula,n_entries_removed,reason
+TiO2,1,Appears in both matbench_expt_gap and MP candidate pool
+SrTiO3,1,Appears in both matbench_expt_gap and MP candidate pool
+BaTiO3,1,Appears in both matbench_expt_gap and MP candidate pool
+ZnO,1,Appears in both matbench_expt_gap and MP candidate pool
+GaAs,1,Appears in both matbench_expt_gap and MP candidate pool
+CdS,1,Appears in both matbench_expt_gap and MP candidate pool
+CdSe,1,Appears in both matbench_expt_gap and MP candidate pool
+InP,1,Appears in both matbench_expt_gap and MP candidate pool
+GaP,1,Appears in both matbench_expt_gap and MP candidate pool
+GaN,1,Appears in both matbench_expt_gap and MP candidate pool
+ZrO2,1,Appears in both matbench_expt_gap and MP candidate pool
+SnO2,1,Appears in both matbench_expt_gap and MP candidate pool
+Cu2O,1,Appears in both matbench_expt_gap and MP candidate pool
+BiVO4,1,Appears in both matbench_expt_gap and MP candidate pool
+Bi2Te3,2,Two polymorph entries; reduced formula in both datasets
+Fe2O3,2,Two polymorph entries; reduced formula in both datasets

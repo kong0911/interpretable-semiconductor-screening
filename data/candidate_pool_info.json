@@ -1,0 +1,33 @@
+{
+  "raw_pool_size": 30000,
+  "sampling_seed": 18012019,
+  "target_window_eV": [
+    1.1,
+    1.8
+  ],
+  "target_window_candidates_before_dedup": 3263,
+  "overlap_compositions_removed": 18,
+  "overlap_unique_compositions": 16,
+  "overlap_fraction_pct": 0.06,
+  "target_window_candidates_after_dedup": 3258,
+  "priority_tiers": {
+    "High_Priority_Tier1": {
+      "count": 486,
+      "criterion": "delta_Eg <= 0.30 eV AND Eg_ref > 0 eV"
+    },
+    "Medium_Priority_Tier2": {
+      "count": 890,
+      "criterion": "0.30 < delta_Eg <= 0.90 eV AND Eg_ref > 0 eV"
+    },
+    "Verification_Required_Tier3": {
+      "count": 1882,
+      "criterion": "delta_Eg > 0.90 eV OR Eg_ref = 0 eV"
+    },
+    "Low_Excluded_Tier4": {
+      "description": "Eg_pred outside [1.10, 1.80] eV, predicted metallic (P(metal)>=0.20), or glass-forming"
+    }
+  },
+  "metallicity_threshold": "P(metal) < 0.20 (HistGradientBoosting classifier)",
+  "glass_filter": "glass-forming probability threshold (ExtraTrees glass classifier)",
+  "reference_band_gap_source": "Materials Project DFT/PBE-GGA (no new ab initio calculations performed)"
+}
